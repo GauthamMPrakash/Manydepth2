@@ -6,6 +6,20 @@ file_dir = os.path.dirname(__file__)  # the directory that options.py resides in
 class MonodepthOptions:
     def __init__(self):
         self.parser = argparse.ArgumentParser(description="ManyDepth options")
+        self.parser.add_argument("--video_path",
+                               type=str,
+                               help="path to input video file",
+                               required=True)
+        self.parser.add_argument("--display_window",
+                               action="store_true",
+                               help="if set, displays real-time video processing windows")
+        self.parser.add_argument("--save_frames",
+                               action="store_true",
+                               help="if set, saves input frames and depth maps to disk")
+        self.parser.add_argument("--output_dir",
+                               type=str,
+                               help="directory to save output frames",
+                               default="run/code/1_mgdepth/MANYDEPTH2/logs/mono_img_mg/")
         self.parser.add_argument("--mode",
                                  type=str,
                                  default='many',
